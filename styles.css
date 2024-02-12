@@ -1,0 +1,64 @@
+<html><head><style type="text/css" id="dcoder_stylesheet">.speaker-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-row input[type='email'],
+.form-row input[type='text'],
+.form-row textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row textarea {
+  resize: vertical;
+}
+
+.form-row--radio .radio-group,
+.form-row--checkbox .checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row--radio .radio-group input[type='radio'],
+.form-row--checkbox .checkbox-group input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.form-row--radio .radio-group label,
+.form-row--checkbox .checkbox-group label {
+  margin-left: 5px;
+}
+
+.form-row input[type='submit'] {
+  background-color: #007BFF;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.form-row input[type='submit']:hover {
+  background-color: #0056B3;
+}</style></head><body></body></html>
